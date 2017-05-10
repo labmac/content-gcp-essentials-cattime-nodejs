@@ -1,0 +1,19 @@
+{
+  "name": "cattime-nodejs",
+  "description": "Cat Time written in NodeJS",
+  "version": "0.0.1",
+  "author": "Brandon McWilliams",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.15.2"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "1.4.7"
+  }
+}

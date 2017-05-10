@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Cat Time</title>
+    <link rel='icon' type="image/png" href='images/cat.png'>
+    <link href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css' rel='stylesheet' />
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <script type="text/javascript" src="js/client.js"></script>
+  </head>
+  <body class='container'>
+    <section class='header'>
+      <div>
+        <h1 class="heading">Cat Time</h1>
+        <p>Brighten your day with some cats!</p>
+      </div>
+    </section>
+    <section class = 'content'>
+      <section class='sub-header'>
+        <div>
+          <h1>Feeling sad? Here's a cat!</h1>
+        </div>
+      </section>
+      <div class='image-container'>
+        <img class='cat-pic' src="http://thecatapi.com/api/images/get?format=src"/>
+      </div>
+    </section>
+    <section class='button-container'>
+      <h1>Still Sad?</h1>
+      <div>
+        <a onclick="updatePic();" class='my-btn'>Try Another</a>
+      </div>
+    </section>
+  </body>
+</html>

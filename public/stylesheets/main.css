@@ -1,0 +1,112 @@
+.container {
+  background-color: #F9ECEC;
+  width: 100%;
+  display: block;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  margin-bottom: 00;
+  background-color: #2B303A;
+  text-align: center!important;
+  width: 100%;
+  display: table;
+  height: 20%;
+  vertical-align: middle;
+  color: #FFF;
+  display: table;
+}
+
+.header div {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+  height: 100%;
+}
+
+.header h1 {
+  font-size: 800%;
+  padding-bottom: 3%;
+}
+
+.header p {
+  font-size: 200%
+}
+
+.content {
+  color: #FFF;
+  text-align: center!important;
+  background-color: #FE5F55;
+  height: 60%
+}
+
+.sub-header {
+  text-align: center!important;
+  height: 20%;
+  width: auto;
+  display: table;
+  width: 100%
+}
+
+.sub-header div {
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+
+.sub-header div h1 {
+  vertical-align: middle;
+}
+
+.image-container {
+  text-align: center!important;
+  height: 80%;
+}
+
+.image-container img {
+  height: 80%;
+  width: auto;
+}
+
+.button-container {
+  text-align: center!important;
+  background-color: #FFD275;
+  height: 20%;
+  width: 100%;
+  display: table;
+}
+
+.button-container h1 {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  color: #2B303A;
+}
+
+.button-container div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  height: 100%;
+}
+
+.my-btn {
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  padding: 2% 30%;
+  font-size: 200%;
+  border-radius: .25rem;
+  color: #fff;
+  background-color: #FC2F2F;
+  border-color: #E63946;
+}
+
+.my-btn:hover {
+  color: #2B303A;
+  text-decoration: none
+}
