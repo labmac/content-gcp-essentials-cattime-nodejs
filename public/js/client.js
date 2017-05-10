@@ -2,7 +2,7 @@ var getACat = function() {
   var xhttp = new XMLHttpRequest();
   parser = new DOMParser();
 
-  xhttp.open("GET", "http://thecatapi.com/api/images/get?format=xml", false);
+  xhttp.open("GET", "https://thecatapi.com/api/images/get?format=xml", false);
   xhttp.send();
 
   xmlOutput = parser.parseFromString(xhttp.response, "text/xml")
